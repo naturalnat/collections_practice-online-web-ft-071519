@@ -35,7 +35,6 @@ end
 def find_a(array)
   array.each.map do |word|
     if word.start_with?("a") == true
-    word += 1
       return word
     end
   end
