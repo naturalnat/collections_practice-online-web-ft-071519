@@ -15,3 +15,4 @@ def sort_array_aschar_count(array)
     |a, b|
     a.length <=> b.length
 end
+end
