@@ -36,12 +36,11 @@ def find_a(array)
   array.select { |word| word.start_with?("a") }
 end
 
-# def sum_array(array)
-#   sum = 0
-#   array.each do |element|
-# end
-# end
+def sum_array(array)
+  sum = 0
+end
 
+  
 def add_s(array)
   array.each_with_index.map do |word, index|
     if index != 1
