@@ -9,3 +9,7 @@ def array_sort_desc(array)
 end
   return array
 end
+
+def array_sort_char_count(array)
+  array.sort! {|a, b| a.length <=> b.length}
+end
