@@ -31,5 +31,3 @@ def kesha_maker(array)
     word[2] = "$"
   end
 end
-
-
