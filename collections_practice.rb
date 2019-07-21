@@ -3,5 +3,5 @@ def array_sort_asc(array)
     |a, b| a <=> b
   }
   end
-puts array
+array
 end
