@@ -1,7 +1,7 @@
 def array_sort_asc(array)
   array.sort! { |a, b| a <=> b }
   end
-sorted
+array
 end
 
 def array_sort_desc(array)
