@@ -39,7 +39,5 @@ end
 def sum_array(array)
   sum = 0
   array.each do |element|
-  sum = sum + element
-  element += 1
 end
 end
