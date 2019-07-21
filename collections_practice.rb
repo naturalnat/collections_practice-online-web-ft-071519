@@ -1,6 +1,6 @@
 def array_sort_asc(array)
-  sorted = array.sort! { |a, b| a <=> b }
-  puts sorted
+  array.sort do |a, b| 
+    a <=> b 
 end
 
 def array_sort_desc(array)
