@@ -7,4 +7,5 @@ end
 
 def array_sort_desc(array)
   array.sort! { |x, y| y <=> x }
+  array
 end
