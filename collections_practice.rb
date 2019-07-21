@@ -36,5 +36,6 @@ def find_a(array)
   array.selects { |word| word.start_with?("a") }
   array
 end
+end
 
 def sum_array(array)
