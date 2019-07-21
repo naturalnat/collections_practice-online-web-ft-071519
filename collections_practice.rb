@@ -1,6 +1,6 @@
 def array_sort_asc(array)
-  array.sort! { |a, b| a <=> b }
-  puts array.to_s
+  sorted = array.sort! { |a, b| a <=> b }
+  puts sorted
 end
 
 def array_sort_desc(array)
@@ -10,5 +10,5 @@ end
 end
 
 def array_sort_char_count(array)
-  array.sort! {|a, b| a.length <=> b.length}
+  array.sort! { |a, b| a.length <=> b.length }
 end
