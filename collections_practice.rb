@@ -4,3 +4,7 @@ def array_sort_asc(array)
   end
 array
 end
+
+def array_sort_desc(array)
+  array.sort! { |x, y| y <=> x }
+end
