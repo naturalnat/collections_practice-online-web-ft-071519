@@ -31,5 +31,3 @@ array.each do |word|
   word[2] = "$"
   end
 end
-
-
