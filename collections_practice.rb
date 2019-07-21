@@ -11,7 +11,7 @@ end
 end
 
 def sort_array_aschar_count(array)
-  array.sort do  
-    |a, b| 
-    a.length <=> b.length 
+  array.sort do
+    |a, b|
+    a.length <=> b.length
 end
