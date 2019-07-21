@@ -10,6 +10,8 @@ def sort_array_desc(array)
 end
 end
 
-def array_sort_char_count(array)
-  array.sort! { |a, b| a.length <=> b.length }
+def sort_array_aschar_count(array)
+  array.sort do  
+    |a, b| 
+    a.length <=> b.length 
 end
