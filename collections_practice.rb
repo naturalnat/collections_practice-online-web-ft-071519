@@ -31,3 +31,8 @@ def kesha_maker(array)
     word[2] = "$"
   end
 end
+
+def find_a(array)
+  array.each.map do |word|
+    if word.start_with?("a") return word 
+end
