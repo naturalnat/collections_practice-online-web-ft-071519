@@ -1,5 +1,5 @@
 def array_sort_asc(array)
-  sorted = array.sort! { |a, b| a <=> b }
+  array.sort! { |a, b| a <=> b }
   end
 sorted
 end
